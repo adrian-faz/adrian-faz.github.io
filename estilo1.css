@@ -1,0 +1,99 @@
+
+
+body{
+    background-color: rgba(171, 247, 240, 0.651);
+    font-family: "Trirong", serif;
+}
+
+nav ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: navy;
+
+}
+
+nav li {
+
+    float: left;
+    border-right: 0.5px solid #bbb;
+
+}
+
+nav li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  #tituloInicial{
+    font-family: 'Righteous', cursive;
+      background-color: rgb(149, 183, 235);
+      padding: 4px 10px;
+      margin:0;
+  }
+ 
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  p{
+      text-align: justify;
+  }
+
+  .subtitulos {
+      font-size: x-large;
+      font-family: Righteous;
+  }
+
+  .centered_image{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+
+
+  }
+
+  .margenArriba{
+      margin-top: 25px;
+  }
+  
+  #centrar{
+
+    text-align: center;
+
+  }
+
+  .subtitulosC{
+
+    font-size: x-large;
+      font-family: Righteous;
+      text-align: center;
+
+  }
+  
+

@@ -1,0 +1,57 @@
+
+
+body{
+    background-color: rgba(171, 247, 240, 0.651);
+    font-family: "Trirong", serif;
+}
+
+nav ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: navy;
+
+
+}
+
+nav li {
+
+    float: left;
+    border-right: 0.5px solid #bbb;
+
+
+
+}
+
+nav li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #tituloInicial{
+    font-family: 'Righteous', cursive;
+      background-color: rgb(149, 183, 235);
+      padding: 4px 10px;
+      margin:0;
+  }
+ 
+  #Background{
+    padding: 25px;
+    background: url(color.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter:alpha(opacity=40);
+
+
+  }
+
+ 
+  .subtitulos {
+    font-size: x-large;
+    font-family: Righteous;
+}
